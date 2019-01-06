@@ -1,15 +1,19 @@
-.center{
-  text-align: center;
-}
 
 /* beginning section begins here */
 
 #welcome{
-  background-image: url('../images/background.jpg');
+  background: url('../images/background.jpg') center center no-repeat;
   background-repeat: no-repeat;
   background-size: cover !important;
-  width: 100%;
-  height: 90vh;
+  height: -webkit-fill-available;
+}
+
+.navbar-toggler-icon{
+  color: #fff;
+}
+
+.navbar-nav{
+  text-align: center;
 }
 
 .cookies{
@@ -40,7 +44,7 @@
 }
 
 .spacing-image{
-  margin-top: 120px;
+  margin-top: 75px;
 }
 
 .welcome-paragraph{
@@ -61,13 +65,48 @@
 .welcome-font-color{
   color: #fff;
 }
+
+.material-icons{
+  margin-top: 50px;
+  color: #fff;
+  font-size: 40px;
+}
 /* beginning section ends here */
 
+
+/* about me section starts here */
+
+#about-me{
+  padding: 5% 0
+}
+
+
+.about-title{
+  font-size: 42px;
+  color: #3695ff;
+  margin-bottom: 48px;
+}
+
+
+/* about me section ends here */
+
+/* about me section starts here */
+#expert-in{
+  background: #f1f8ff;
+  padding: 5% 0;
+  height: 600px;
+}
+
+/* about me section ends here */
 
 
 
 
 @media only screen and (max-width: 800px) {
+  #welcome{
+    height: 1200px;
+  }
+
   .cookies {
     height: 120px;
   }
