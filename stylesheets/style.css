@@ -71,6 +71,14 @@
   color: #fff;
   font-size: 40px;
 }
+
+.fas{
+  margin-top: 50px;
+}
+
+.fa-adobe{
+ margin-top: 50px;
+}
 /* beginning section ends here */
 
 
@@ -94,13 +102,63 @@
 #expert-in{
   background: #f1f8ff;
   padding: 5% 0;
-  height: 600px;
+
 }
 
+.expert-in-icon{
+  color: #3689fe;
+  font-size: 60px;
+  border: 1px solid #d6dee6;
+  border-radius: 60px;
+  padding: 7.5%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.expert-in-titles{
+  color: #3677fd;
+}
 /* about me section ends here */
 
+/* latest works section starts here */
+
+#latest-works{
+  padding: 5% 0;
+}
+
+/* latest works section ends  here */
 
 
+/* latest works section starts here */
+
+#clients{
+background-color: #f1f8ff;
+padding: 5% 0;
+}
+/* latest works section ends  here */
+
+
+/* foooter starts here */
+footer{
+  background: url('../images/footer.jpg') top center no-repeat;
+  padding: 3% 0;
+  width: 100%;
+}
+
+.footer-title{
+  color: #fff;
+  font-size: 40px;
+}
+
+.font-weight-100{
+  font-weight: 500;
+}
+
+/* footer ends here */
+
+.hire-btn:hover{
+  color: black !important;
+}
 
 @media only screen and (max-width: 800px) {
   #welcome{
@@ -110,4 +168,9 @@
   .cookies {
     height: 120px;
   }
+
+  .cookie-btn{
+    margin: -8px 0 !important;
+  }
+
 }
