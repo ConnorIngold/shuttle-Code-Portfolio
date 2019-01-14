@@ -17,7 +17,22 @@
   
   <title>Document</title>
 </head>
-<body>
+<body onload="OnGoing();">
+
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+    <div class="container center">
+      <div class="col-md-12 content">
+        <h1 class="mt-5 mb-3">Hello there!</h1>
+        <h5>Thanks for coming,</h5>
+        <h5>I'm still working on the site but feel free to look around.</h5>
+      </div>
+    </div>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  </div>
+
   
   <section id="welcome"> 
     <div class="cookies" id="cookies">
@@ -54,14 +69,14 @@
     </nav>
 
     <div class="col-md-12 center welcome-font-color">
-      <img src="images/circle.png" alt="portfolio image" class="spacing-image">
+      <img src="images/me.png" alt="portfolio image" class="img-fluid mb-5 d-block mx-auto">
+
     
-      <h1 class="mt-5 text-uppercase">free portfolio PSD template <br>
-        FOR GRAPHIC designers
+      <h1 class="mt-5">Hello! My Name's Connor  <br>
+       And Im A Freelance Web Developer.
       </h1>
-      <p class="welcome-paragraph lead text-uppercase mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <p class="welcome-paragraph lead text-uppercase mb-5">If i'm not working some revolutionary logistics website for a major new start up company 
+      then you'll find me expanding my all ready vast knowledge about web development.</p>
       <a href="#" class="hire-btn text-uppercase">
           Hire Me
       </a>
@@ -83,7 +98,9 @@
       <div class="row">
         <div class="col-md-12 center">
           <h1 class="lead about-title">About Me</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis id nulla quod saepe magnam, ut, repudiandae minus tenetur, perspiciatis dignissimos! Quia iste necessitatibus corrupti harum, nesciunt numquam asperiores quo.</p>
+          <p>I enjoy turning complex problems into simple, beautiful and intuitive websites. When I'm not coding, you'll find me
+          listing to music, going to live shows, watching netflix or learning about the deep complexities of the human mind. (Bet
+          you weren't expecting that last one)</p>
         </div>
       </div>
     </div>
@@ -161,26 +178,54 @@
         <h1 class="lead about-title">Latest Works</h1>
       </div>
 
-      <div class="row center mb-5">
+      <div class="row center">
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-wobble-skew">
+          <a href="https://onthegoexpress.com/">
+            <img src="images/shutterstock_667250779-copy.jpg" alt="" class="projects hvr-wobble-skew">
+          </a>
+          <h1 class="card-title mt-1">On The Go Express</h1> 
+          <p class="lead">On The Go Express provides a unique service for small to large scale businesses, it seeks to move their goods within
+          the United Kingdom without the need of finding reliable carriers.</p>
         </div>
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-hang">
+          <img src="images/Untitled-1.jpg" alt="" class="projects hvr-hang">
+          <h1 class="card-title">Code_With_Us</h1>
+          <p class="lead">Provides a platform to help like-minded developers connect, collaborate, code and create projects together.</p>
         </div>
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-buzz">
+          <a href="">
+            <img src="images/node.jpg" alt="" class="projects hvr-buzz">
+          </a>
+          <h1 class="card-title">Creator Tap</h1>
+          <p class="lead">Currently, Creator Tap is a simple register and login app. Under the hood, it encrypts/hashes the user's password to
+          increase security as well as using passport.js to handle authentification. I have many ideas for what this project
+          could be going further.</p>
         </div> 
       </div>
       <div class="row center">
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-grow">
+        <a href="https://connoringold.github.io/App-Website/index.html">
+          <img src="images/app.jpg" alt="" class="projects hvr-grow">
+        </a>
+          <h1 class="card-title">Generic App Theme</h1>
+          <p class="lead">Just needed an app theme website. It's nothing impressive and I plan to make a better one soon. </p>
+
         </div>
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-shrink">
+          <a href="https://connoringold.github.io/reservationApp/">
+            <img src="images/resApp.png" alt="" class="projects hvr-shrink">
+          </a>
+          <h1 class="card-title">Reservation App</h1>
+          <p class="lead">From humble beginnings. Something I made when I was first learning JavaScript. I've come far since then.</p>
+
         </div>
         <div class="col-md-4 mb-5">
-          <img src="images/latest-works.png" alt="" class="hvr-pulse">
+          <a href="https://connoringold.herokuapp.com/">
+            <img src="images/portfolio.jpg" alt="" class="projects hvr-pulse">
+          </a>
+            <h1 class="card-title">Prevoius Portfolio</h1>
+            <p class="lead">Just my old portfolio. I like to keep things fresh</p>
+
         </div>
       </div>
     </div>
@@ -212,7 +257,7 @@
     <div class="container">
       <div class="row center">
         <div class="col-md-12">
-          <h1 class="lead footer-title">Need A Graphic Designer? <strong class="font-weight-100">Ready To Work</strong></h1>
+          <h1 class="lead footer-title">Need A Web Developer? <strong class="font-weight-100">I'm Ready To Work!</strong></h1>
         </div>
       </div>
 
@@ -221,6 +266,7 @@
   
 <script src="js/script.js"></script>  
 <script src="js/onClickScroll.js"></script>
+<script src="js/overlay.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous"></script>

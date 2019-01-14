@@ -43,8 +43,12 @@
   font-weight: 500;
 }
 
-.spacing-image{
-  margin-top: 75px;
+.img-fluid{
+  height: 250px;
+  width: auto;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50px 20px;
 }
 
 .welcome-paragraph{
