@@ -52,7 +52,7 @@
 }
 
 .welcome-paragraph{
-  padding: 0 18%;
+  padding: 0 25%;
   font-size: 16px;
 }
 
@@ -74,6 +74,7 @@
   margin-top: 50px;
   color: #fff;
   font-size: 40px;
+  cursor: pointer;
 }
 
 .fas{
