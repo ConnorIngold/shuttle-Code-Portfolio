@@ -1,546 +1,486 @@
-<html lang="en" class="gr__127_0_0_1">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<html lang="en">
 
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <link rel="stylesheet" href="stylesheets/static.css" />
-    <link rel="stylesheet" href="stylesheets/hover.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
-    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <title>Connor Ingold | Freelance Web Developer</title>
-    <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/static.css">
+  <link rel="stylesheet" href="stylesheets/hover.css">
 
-        to {
-          opacity: 1;
-        }
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-116651476-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116651476-1');
+  </script>
+
+  <title>Connor Ingold | Freelance Web Developer</title>
+  <style type="text/css">
+    /* Chart.js */
+    @-webkit-keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99;
       }
 
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
+      to {
+        opacity: 1;
+      }
+    }
 
-        to {
-          opacity: 1;
-        }
+    @keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99;
       }
 
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
+      to {
+        opacity: 1;
       }
-    </style>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="chrome-extension://immhpnclomdloikkpcefncmfgjbkojmh/css/emoji.css"
-    />
-  </head>
+    }
 
-  <body
-    data-aos-easing="ease"
-    data-aos-duration="400"
-    data-aos-delay="0"
-    data-gr-c-s-loaded="true"
-    cz-shortcut-listen="true"
-  >
-    <!-- The overlay -->
-    <!-- <div id="myNav" class="overlay">
-    <div class="container center">
-      <div class="col-md-12 content">
-        <h1 class="mt-5 mb-3">Hello there!</h1>
-        <h5>Thanks for coming,</h5>
-        <h5>I'm still working on the site but feel free to look around.</h5>
-      </div>
-    </div> -->
-    <!-- Button to close the overlay navigation -->
-    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  
-  </div> -->
+    .chartjs-render-monitor {
+      -webkit-animation: chartjs-render-animation 0.001s;
+      animation: chartjs-render-animation 0.001s;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="chrome-extension://immhpnclomdloikkpcefncmfgjbkojmh/css/emoji.css">
+  <style type="text/css">
+    /* Chart.js */
+    @-webkit-keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99
+      }
 
-    <section id="welcome">
-      <div class="cookies" id="cookies" style="display: none;">
-        <div class="container">
-          <div class="row justify-content-center">
-            <p class="cookie-title">
-              This site uses cookies, so that my service can work better.
-            </p>
-            <a
-              href="#"
-              class="cookie-btn"
-              id="cookies-button"
-              onclick="dismiss();"
-            >
-              <p class="p-button">Accept</p>
-            </a>
-          </div>
-        </div>
-      </div>
+      to {
+        opacity: 1
+      }
+    }
 
-      <nav
-        class="navbar navbar-expand-lg aos-init aos-animate"
-        data-aos="fade-down"
-        data-aos-delay="100"
-        data-aos-duration="1500"
-        style="
-    /* position: fixed; */
-    /* width: 100%; */
-    /* height: 126px; */
-"
-      >
-        <div class="container ">
-          <a class="navbar-brand" href="#"
-            ><img
-              src="images/logo.png"
-              height="100"
-              class="hvr-rotate"
-              alt="Connor Ingold Logo"
-          /></a>
+    @keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99
+      }
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon my-toggler">☰</span>
-          </button>
+      to {
+        opacity: 1
+      }
+    }
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link hvr-overline-from-center active" href="#"
-                  >Home <span class="sr-only active">(current)</span></a
-                >
-              </li>
-              <li
-                class="nav-item"
-                onclick="smoothScroll(document.getElementById('about-me'))"
-              >
-                <a class="nav-link hvr-overline-from-center" href="#"
-                  >About Me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-overline-from-center" href="#"
-                  >Contact Me</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    .chartjs-render-monitor {
+      -webkit-animation: chartjs-render-animation 0.001s;
+      animation: chartjs-render-animation 0.001s;
+    }
+  </style>
+</head>
+<style id="stylish-2" class="stylish" type="text/css">
+  /*
+This work is licensed under the Creative Commons Attribution 
+4.0 International License. To view a copy of this license,
+visit http://creativecommons.org/licenses/by/4.0/.
+*/
 
-      <div
-        class="col-md-12 center welcome-font-color aos-init aos-animate"
-        data-aos="fade-up"
-        data-aos-delay="100"
-        data-aos-duration="1500"
-        style="
-    /* padding-top: 126px; */
-"
-      >
-        <img
-          src="images/me.png"
-          alt="portfolio image"
-          class="img-fluid mb-5 d-block mx-auto"
-        />
+  @namespace url(http://www.w3.org/1999/xhtml);
+</style>
 
-        <h1 class="mt-5">
-          Hello! My Name's Connor <br />
-          Im A Freelance Web Developer.
-        </h1>
-        <p class="welcome-paragraph lead mb-5">I aim to provide the highest level of service that I can for all of our clients with all of the work that I produce.
-        I will always put you and your work first!</p>
-        <a href="#" class="hire-btn text-uppercase">
-          Hire Me
-        </a>
-      </div>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-gr-c-s-loaded="true"
+  cz-shortcut-listen="true">
+  <!-- The overlay -->
+  <!-- <div id="myNav" class="overlay">
+<div class="container center">
+<div class="col-md-12 content">
+<h1 class="mt-5 mb-3">Hello there!</h1>
+<h5>Thanks for coming,</h5>
+<h5>I'm still working on the site but feel free to look around.</h5>
+</div>
+</div> -->
+  <!-- Button to close the overlay navigation -->
+  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+</div> -->
+
+  <section id="welcome">
+    <div class="cookies" id="cookies" style="display: none;">
       <div class="container">
-        <div class="row justify-content-center mt-5">
-          <a onclick="smoothScroll(document.getElementById('about-me'))">
-            <i class="material-icons animated infinite bounce delay-2s">
-              arrow_downward
-            </i>
+        <div class="row justify-content-center">
+          <p class="cookie-title">
+            This site uses cookies, so that my service can work better.
+          </p>
+          <a href="#" class="cookie-btn" id="cookies-button" onclick="dismiss();">
+            <p class="p-button">Accept</p>
           </a>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="about-me">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-12 center aos-init"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            data-aos-duration="1500"
-          >
-            <h1 class="lead about-title">About Me</h1>
-            <p>Throughout my whole life I have been quick to pick new technologies and have always been eager to use said technologies to figure out ways to fix modern day problems in a ever rapidly expanding and difficult world. I'm always looking for ways to improve the projects I've created in terms of ease of use, reliability or timescale.</p>
-          </div>
+    <nav class="navbar navbar-expand-lg aos-init aos-animate" data-aos="fade-down" data-aos-delay="100"
+      data-aos-duration="1500" style="
+/* position: fixed; */
+/* width: 100%; */
+/* height: 126px; */
+">
+      <div class="container ">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" height="100" class="hvr-rotate"
+            alt="Connor Ingold Logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon my-toggler">☰</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link hvr-overline-from-center active" href="#">Home <span
+                  class="sr-only active">(current)</span></a>
+            </li>
+            <li class="nav-item" onclick="smoothScroll(document.getElementById('about-me'))">
+              <a class="nav-link hvr-overline-from-center" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-overline-from-center" href="#">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-overline-from-center" href="nihongo.html">Language learning</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <section id="expert-in">
-      <div class="container">
-        <div class="col-md-12 center">
-          <h1 class="lead about-title">Services</h1>
+    <div class="col-md-12 center welcome-font-color aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+      data-aos-duration="1500" style="
+/* padding-top: 126px; */
+">
+      <img src="images/me.png" alt="portfolio image" class="img-fluid mb-5 d-block mx-auto">
+
+      <h1 class="mt-5">
+        Hello! My Name's Connor <br>
+        Im A Freelance Web Developer.
+      </h1>
+      <p class="welcome-paragraph lead mb-5">I aim to provide the highest level of service that I can for all of our
+        clients with all of the work that I produce.
+        I will always put you and your work first!</p>
+      <a href="#" class="hire-btn text-uppercase">
+        Hire Me
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <a onclick="smoothScroll(document.getElementById('about-me'))">
+          <i class="material-icons animated infinite bounce delay-2s">
+            arrow_downward
+          </i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 center aos-init" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+          <h1 class="lead about-title">About Me</h1>
+          <p>Throughout my whole life I have been quick to pick new technologies and have always been eager to use said
+            technologies to figure out ways to fix modern day problems in a ever rapidly expanding and difficult world.
+            I'm always looking for ways to improve the projects I've created in terms of ease of use, reliability or
+            timescale.</p>
         </div>
       </div>
-      <div class="container">
-        <div
-          class="row center aos-init"
-          data-aos="fade-right"
-          data-aos-delay="100"
-          data-aos-duration="1500"
-        >
-          <div class="col-md-4">
-            <div class="wrapper">
-              <i class="material-icons expert-in-icon hvr-shadow">
-                web
-              </i>
-              <h3 class="expert-in-titles">Website Developmet</h3>
-              <p>
-                I primarily specialize in making websites like the one your on now which is purply front-end based. 
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="wrapper">
-              <i class="material-icons expert-in-icon hvr-shadow">
-                laptop
-              </i>
-              <h3 class="expert-in-titles">System Development</h3>
-              <p>
-                Need a system where people can register, login, place order or much more? Then I have experience in those and working with advance google API's to generate cost algorithms which give accurate price predictions for couriers.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="wrapper">
-              <i class="material-icons expert-in-icon hvr-shadow">
-                mobile_friendly
-              </i>
-              <h3 class="expert-in-titles">Online Hosting</h3>
-              <p>
-                All my websites are mobile friendly and can be completely customised to your requirement's.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="row center aos-init"
-          data-aos="fade-left"
-          data-aos-delay="100"
-          data-aos-duration="1500"
-        >
-          <div
-            class="chartjs-size-monitor"
-            style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"
-          >
-            <div
-              class="chartjs-size-monitor-expand"
-              style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"
-            >
-              <div
-                style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"
-              ></div>
-            </div>
-            <div
-              class="chartjs-size-monitor-shrink"
-              style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"
-            >
-              <div
-                style="position:absolute;width:200%;height:200%;left:0; top:0"
-              ></div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4" >
+    </div>
+  </section>
+
+  <section id="expert-in">
+    <div class="container">
+      <div class="col-md-12 center">
+        <h1 class="lead about-title">Services</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row center aos-init" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">
+        <div class="col-md-4">
           <div class="wrapper">
-            <i class="fas fa-pencil-alt expert-in-icon hvr-shadow"></i>
-            <h3 class="expert-in-titles">PRODCUT DESIGN</h3> 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
-          </div> 
+            <i class="material-icons expert-in-icon hvr-shadow">
+              web
+            </i>
+            <h3 class="expert-in-titles">Website Developmet</h3>
+            <p>
+              I primarily specialize in making websites like the one your on now which is purply front-end based.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="wrapper">
             <i class="material-icons expert-in-icon hvr-shadow">
-              brush
+              laptop
             </i>
-                
-            <h3 class="expert-in-titles">UX & UI</h3> 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
-          </div> 
+            <h3 class="expert-in-titles">System Development</h3>
+            <p>
+              Need a system where people can register, login, place order or much more? Then I have experience in those
+              and working with advance google API's to generate cost algorithms which give accurate price predictions
+              for couriers.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="wrapper">
-            <i class="fab fa-adobe expert-in-icon hvr-shadow"></i>
-            <h3 class="expert-in-titles">ANIMATIONS</h3> 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
-          </div> 
-        </div> -->
-
-          <div class="col-md-12 center d-none d-md-block">
-            <h1 class="lead about-title mt-5">Expert In</h1>
+            <i class="material-icons expert-in-icon hvr-shadow">
+              mobile_friendly
+            </i>
+            <h3 class="expert-in-titles">Online Hosting</h3>
+            <p>
+              All my websites are mobile friendly and can be completely customised to your requirement's.
+            </p>
           </div>
-          <canvas
-            id="myChart"
-            width="2280"
-            height="1140"
-            class="chartjs-render-monitor d-none d-md-block"
-            style="display: block; height: 570px; width: 1140px;"
-          ></canvas>
         </div>
       </div>
-    </section>
-
-    <section id="latest-works">
-      <div class="container">
-        <div class="col-md-12 center">
-          <h1 class="lead about-title">Latest Works</h1>
+      <div class="row center aos-init" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">
+        <div class="chartjs-size-monitor"
+          style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+          <div class="chartjs-size-monitor-expand"
+            style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+            <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>
+          </div>
+          <div class="chartjs-size-monitor-shrink"
+            style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+            <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
+          </div>
         </div>
+        <!-- <div class="col-md-4" >
+<div class="wrapper">
+<i class="fas fa-pencil-alt expert-in-icon hvr-shadow"></i>
+<h3 class="expert-in-titles">PRODCUT DESIGN</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="wrapper">
+<i class="material-icons expert-in-icon hvr-shadow">
+brush
+</i>
 
-        <div class="row center">
-          <div class="col-md-4 mb-5">
-            <a href="https://onthegoexpress.com/">
-              <img
-                src="images/shutterstock_667250779-copy.jpg"
-                alt=""
-                class="projects hvr-shrink"
-                style=" width: 100%; height: 300px; object-fit: cover;"
-              />
-            </a>
-            <h1
-              class="card-title mt-1"
-              style="
+<h3 class="expert-in-titles">UX & UI</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="wrapper">
+<i class="fab fa-adobe expert-in-icon hvr-shadow"></i>
+<h3 class="expert-in-titles">ANIMATIONS</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi veniam in provident numquam magnam.</p>
+</div>
+</div> -->
+
+        <div class="col-md-12 center d-none d-md-block">
+          <h1 class="lead about-title mt-5">Expert In</h1>
+        </div>
+        <canvas id="myChart" width="1140" height="570" class="chartjs-render-monitor d-none d-md-block"
+          style="display: block; height: 570px; width: 1140px;"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section id="latest-works">
+    <div class="container">
+      <div class="col-md-12 center">
+        <h1 class="lead about-title">Latest Works</h1>
+      </div>
+
+      <div class="row center">
+        <div class="col-md-4 mb-5">
+          <a href="https://onthegoexpress.com/">
+            <img src="images/shutterstock_667250779-copy.jpg" alt="" class="projects hvr-shrink"
+              style=" width: 100%; height: 300px; object-fit: cover;">
+          </a>
+          <h1 class="card-title mt-1" style="
         font-size: 26px;
-    "
-            >
-              On The Go Express
-            </h1>
-           <a href="https://onthegoexpress.com/"> <p style="color: #00baae;"> Click to view project</p> </a>
-          </div>
-          <div class="col-md-4 mb-5">
-            <img
-              src="images/Untitled-1.jpg"
-              alt=""
-              class="projects hvr-shrink"
-            />
-            <h1 class="card-title">Code_With_Us</h1>
-            <p class="lead">
-              Provides a platform to help like-minded developers connect,
-              collaborate, code and create projects together.
-            </p>
-          </div>
-          <div class="col-md-4 mb-5">
-            <a href="https://creatortap.herokuapp.com/">
-              <img src="images/node.jpg" alt="" class="projects hvr-shrink" />
-            </a>
-            <h1 class="card-title">Creator Tap</h1>
-            <p class="lead">
-              Currently, Creator Tap is a simple register and login app. Under
-              the hood, it encrypts/hashes the user's password to increase
-              security as well as using passport.js to handle authentification.
-              I have many ideas for what this project could be going further.
-            </p>
-          </div>
+        ">
+            On The Go Express
+          </h1>
+          <a href="https://onthegoexpress.com/">
+            <p style="color: #00baae;"> Click to view project</p>
+          </a>
         </div>
-        <div class="row center">
-          <div class="col-md-4 mb-5">
-            <a href="https://connoringold.github.io/App-Website/index.html">
-              <img src="images/app.jpg" alt="" class="projects hvr-shrink" />
-            </a>
-            <h1 class="card-title">Generic App Theme</h1>
-            <p class="lead">
-              Just needed an app theme website. It's nothing impressive and I
-              plan to make a better one soon.
-            </p>
-          </div>
-          <div class="col-md-4 mb-5 ">
-            <a
-              href="https://connoringold.github.io/reservationApp/"
-              class="hvr-shrink"
-            >
-              <img src="images/resApp.png" alt="" class="projects " />
-            </a>
-            <h1 class="card-title">Reservation App</h1>
-            <p class="lead">
-              From humble beginnings. Something I made when I was first learning
-              JavaScript. I've come far since then.
-            </p>
-          </div>
-          <div class="col-md-4 mb-5">
-            <a href="https://connoringold.herokuapp.com/">
-              <img
-                src="images/portfolio.jpg"
-                alt=""
-                class="projects hvr-shrink"
-              />
-            </a>
-            <h1 class="card-title">Previous Portfolio</h1>
-            <p class="lead">
-              Just my old portfolio. I like to keep things fresh.
-            </p>
-          </div>
+        <div class="col-md-4 mb-5">
+          <img src="images/Untitled-1.jpg" alt="" class="projects hvr-shrink">
+          <h1 class="card-title">Code_With_Us</h1>
+        </div>
+        <div class="col-md-4 mb-5">
+          <a href="https://creatortap.herokuapp.com/">
+            <img src="images/node.jpg" alt="" class="projects hvr-shrink">
+          </a>
+          <h1 class="card-title">Creator Tap</h1>
+          <a href="https://creatortap.herokuapp.com/">
+            <p style="color: #00baae;"> Click to view project</p>
+          </a>
         </div>
       </div>
-    </section>
-
-    <section id="clients">
-      <div class="container">
-        <div class="col-md-12 center">
-          <h1 class="lead about-title">Clients</h1>
+      <div class="row center">
+        <div class="col-md-4 mb-5">
+          <a href="https://connoringold.github.io/App-Website/index.html">
+            <img src="images/app.jpg" alt="" class="projects hvr-shrink">
+          </a>
+          <h1 class="card-title">Generic App Theme</h1>
+          <a href="https://connoringold.github.io/App-Website/index.html/">
+            <p style="color: #00baae;"> Click to view project</p>
+          </a>
         </div>
-        <div class="row center">
-          <div class="col-md-6">
-            <img src="images/otgeLogo.png" class="img" alt="" />
-          </div>
-          <div class="col-md-6">
-            <img
-              src="https://jpstudios.co.uk/themes/JPStudios/Public/images/logo.png"
-              class="img"
-              alt=""
-            />
-          </div>
+        <div class="col-md-4 mb-5 ">
+          <a href="https://connoringold.github.io/reservationApp/" class="hvr-shrink">
+            <img src="images/resApp.png" alt="" class="projects ">
+          </a>
+          <h1 class="card-title">Reservation App</h1>
+          <a href="https://connoringold.github.io/reservationApp/">
+            <p style="color: #00baae;"> Click to view project</p>
+          </a>
         </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <div class="row center">
-          <div class="col-md-12">
-            <h1 class="lead footer-title">
-              Need A Web Developer?
-              <strong class="font-weight-100"
-                >Get in touch today! <a href="mailto:info@connoringold.com?subject=Hi Connor I Would Like To Speak To You In Regards To&amp;body=Hello Connor, %0D%0A %0D%0A%0D%0AKind Regards, %0D%0A %0D%0A{INSERT_NAME_HERE}">(Send me a email)</a></strong>
-            </h1>
-          </div>
+        <div class="col-md-4 mb-5">
+          <a href="https://connoringold.herokuapp.com/">
+            <img src="images/portfolio.jpg" alt="" class="projects hvr-shrink">
+          </a>
+          <h1 class="card-title">Previous Portfolio</h1>
+          <a href="https://connoringold.herokuapp.com/">
+            <p style="color: #00baae;"> Click to view project</p>
+          </a>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="js/script.js"></script>
-    <script src="js/onClickScroll.js"></script>
-    <script src="js/overlay.js"></script>
+  <section id="clients">
+    <div class="container">
+      <div class="col-md-12 center">
+        <h1 class="lead about-title">Clients</h1>
+      </div>
+      <div class="row center">
+        <div class="col-md-12">
+          <img src="images/otgeLogo.png" class="img" alt="">
+        </div>
+        <!-- <div class="col-md-6">
+      <img
+      src="https://jpstudios.co.uk/themes/JPStudios/Public/images/logo.png"
+      class="img"
+      alt=""
+      />
+    </div> -->
+      </div>
+    </div>
+  </section>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <footer>
+    <div class="container">
+      <div class="row center">
+        <div class="col-md-12">
+          <h1 class="lead footer-title">
+            Need A Web Developer?
+            <strong class="font-weight-100">
+              <a
+                href="mailto:info@connoringold.com?subject=Hi Connor I Would Like To Speak To You In Regards To&amp;body=Hello Connor, %0D%0A %0D%0A%0D%0AKind Regards, %0D%0A %0D%0A{INSERT_NAME_HERE}">Get
+                in touch today!</a>
+            </strong>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/onClickScroll.js"></script>
+  <script src="js/overlay.js"></script>
 
-    <script src="js/skillBar.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
-    <!-- Code injected by live-server -->
-    <script type="text/javascript">
-      // <![CDATA[  <-- For SVG support
-      if ("WebSocket" in window) {
-        (function() {
-          function refreshCSS() {
-            var sheets = [].slice.call(document.getElementsByTagName("link"));
-            var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i < sheets.length; ++i) {
-              var elem = sheets[i];
-              head.removeChild(elem);
-              var rel = elem.rel;
-              if (
-                (elem.href && typeof rel != "string") ||
-                rel.length == 0 ||
-                rel.toLowerCase() == "stylesheet"
-              ) {
-                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
-                elem.href =
-                  url +
-                  (url.indexOf("?") >= 0 ? "&" : "?") +
-                  "_cacheOverride=" +
-                  new Date().valueOf();
-              }
-              head.appendChild(elem);
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+  <script src="js/skillBar.js"></script>
+
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ("WebSocket" in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            head.removeChild(elem);
+            var rel = elem.rel;
+            if (
+              (elem.href && typeof rel != "string") ||
+              rel.length == 0 ||
+              rel.toLowerCase() == "stylesheet"
+            ) {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+              elem.href =
+                url +
+                (url.indexOf("?") >= 0 ? "&" : "?") +
+                "_cacheOverride=" +
+                new Date().valueOf();
             }
+            head.appendChild(elem);
           }
-          var protocol =
-            window.location.protocol === "http:" ? "ws://" : "wss://";
-          var address =
-            protocol + window.location.host + window.location.pathname + "/ws";
-          var socket = new WebSocket(address);
-          socket.onmessage = function(msg) {
-            if (msg.data == "reload") window.location.reload();
-            else if (msg.data == "refreshcss") refreshCSS();
-          };
-          if (
-            sessionStorage &&
-            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
-          ) {
-            console.log("Live reload enabled.");
-            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
-          }
-        })();
-      } else {
-        console.error(
-          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
-        );
-      }
-      // ]]>
-    </script>
-  </body>
+        }
+        var protocol =
+          window.location.protocol === "http:" ? "ws://" : "wss://";
+        var address =
+          protocol + window.location.host + window.location.pathname + "/ws";
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == "reload") window.location.reload();
+          else if (msg.data == "refreshcss") refreshCSS();
+        };
+        if (
+          sessionStorage &&
+          !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+        ) {
+          console.log("Live reload enabled.");
+          sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+        }
+      })();
+    } else {
+      console.error(
+        "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+      );
+    }
+// ]]>
+  </script>
+
   <style id="stylish-2" class="stylish" type="text/css">
     /*
-This work is licensed under the Creative Commons Attribution 
+This work is licensed under the Creative Commons Attribution
 4.0 International License. To view a copy of this license,
 visit http://creativecommons.org/licenses/by/4.0/.
 */
 
     @namespace url(http://www.w3.org/1999/xhtml);
   </style>
+
+</body>
+
 </html>
